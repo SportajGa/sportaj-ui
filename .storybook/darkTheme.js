@@ -17,7 +17,7 @@ export default create({
 	barSelectedColor: darkTheme.colors.brand.primary,
 	barBg: darkTheme.colors.element.neutral,
 
-	textColor: darkTheme.colors.text.primary,
+	textColor: darkTheme.colors.text.white,
 	textInverseColor: darkTheme.colors.text.white,
 	textMutedColor: darkTheme.colors.text.tertiary,
 
