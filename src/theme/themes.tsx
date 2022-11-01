@@ -1,122 +1,68 @@
-export interface KoyoTheme {
+export interface SportajGaTheme {
 	isDark: boolean;
 	colors: {
-		cell: {
-			background: string;
+		brand: {
 			primary: string;
-			secondary: string;
-			tertiary: string;
-			stroke: string;
-			footnote: string;
+			light: string;
+			dark: string;
 		};
 		text: {
 			primary: string;
-			inactive: string;
+			seconday: string;
+			tertiary: string;
+			success: string;
+			error: string;
+			white: string;
+			link: string;
 		};
-		action: {
-			active: string;
-			inactive: string;
-			hover: string;
-			text: string;
-			inactiveText: string;
+		element: {
+			primary: string;
+			seconday: string;
+			tertiary: string;
+			success: string;
+			error: string;
+			neutral: string;
 		};
-		inform: {
-			active: string;
-			text: string;
-		};
-		alert: {
-			hover: string;
-			active: string;
-			text: string;
-			cell: string;
-		};
-		danger: {
-			hover: string;
-			active: string;
-			text: string;
-			cell: string;
-		};
-		success: {
-			hover: string;
-			active: string;
-			text: string;
-			cell: string;
-		};
-		modal: {
-			cell: string
-		};
-		listElement: {
-			cell: string,
-			hover: string,
-			text: string
-		}
 	};
 	fontFamily: {
 		main: string;
 	};
 }
 
-export const darkTheme: KoyoTheme = {
+export const darkTheme: SportajGaTheme = {
 	isDark: true,
 	colors: {
-		cell: {
-			background: '#300729',
-			primary: '#300729',
-			secondary: '#000000',
-			tertiary: '#805779',
-			stroke: '#F0932C',
-			footnote: '#9CA3AF'
+		brand: {
+			primary: '#F95700',
+			light: '#FF7931',
+			dark: '#E04E00'
 		},
 		text: {
-			primary: '#FFFFFF',
-			inactive: '#9CA3AF'
+			primary: '#1B1B1B',
+			seconday: '#696969',
+			tertiary: '#B4B4B4',
+			success: '#5CC689',
+			error: '#EE7D52',
+			white: '#FFFFFF',
+			link: '#25949B'
 		},
-		action: {
-			active: '#F0932C',
-			inactive: '#4B5563',
-			hover: '#FFB750',
-			text: '#000000',
-			inactiveText: '#f9fafb'
-		},
-		inform: {
-			active: '#4b5563',
-			text: '#e5e7eb'
-		},
-		alert: {
-			hover: '#ef4444',
-			active: '#f87171',
-			cell: '#dc2626',
-			text: '#ffffff'
-		},
-		danger: {
-			hover: '#ef4444',
-			active: '#f87171',
-			cell: '#dc2626',
-			text: '#ffffff'
-		},
-		success: {
-			hover: '#F0932C',
-			active: '#F0932C',
-			cell: '#F0932C',
-			text: '#000000'
-		},
-		modal: {
-			cell: '#1f2937',
-		},
-		listElement: {
-			cell: '#1f2937',
-			hover: '#4b5563',
-			text: '#ffffff'
+		element: {
+			primary: '#1B1B1B',
+			seconday: '#696969',
+			tertiary: '#B4B4B4',
+			success: '#5CC689',
+			error: '#EE7D52',
+			neutral: '#EAEAEA'
 		}
 	},
 	fontFamily: {
-		main: "'Montserrat', sans-serif",
+		main: "'Montserrat', sans-serif"
 	}
 };
 
 // TODO: Add light theme
 
-export const lightTheme: KoyoTheme = {
+export const lightTheme: SportajGaTheme = {
 	...darkTheme,
 	isDark: false
 };

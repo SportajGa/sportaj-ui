@@ -7,21 +7,21 @@ export default create({
 	brandUrl: 'https://sportaj.ga',
 	brandImage: '/sportaj_logo.svg',
 
-	colorPrimary: darkTheme.colors.action.active,
-	colorSecondary: darkTheme.colors.action.active,
+	colorPrimary: darkTheme.colors.brand.primary,
+	colorSecondary: darkTheme.colors.element.seconday,
 
-	appBg: darkTheme.colors.cell.primary,
-	appContentBg: darkTheme.colors.cell.background,
-	appBorderColor: darkTheme.colors.cell.stroke,
+	appBg: darkTheme.colors.element.primary,
+	appContentBg: darkTheme.colors.element.neutral,
+	appBorderColor: darkTheme.colors.element.primary,
 
-	barSelectedColor: darkTheme.colors.action.active,
-	barBg: darkTheme.colors.cell.secondary,
+	barSelectedColor: darkTheme.colors.brand.primary,
+	barBg: darkTheme.colors.element.seconday,
 
 	textColor: darkTheme.colors.text.primary,
-	textInverseColor: darkTheme.colors.text.footnote,
+	textInverseColor: darkTheme.colors.text.seconday,
 	textMutedColor: darkTheme.colors.text.tertiary,
 
-	inputBg: darkTheme.colors.cell.tertiary,
-	inputTextColor: darkTheme.colors.text.primary,
-	inputBorderColor: darkTheme.colors.cell.stroke
+	inputBg: darkTheme.colors.element.tertiary,
+	inputTextColor: darkTheme.colors.element.primary,
+	inputBorderColor: darkTheme.colors.element.seconday
 });
