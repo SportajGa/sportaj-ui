@@ -15,13 +15,13 @@ export default create({
 	appBorderColor: darkTheme.colors.element.primary,
 
 	barSelectedColor: darkTheme.colors.brand.primary,
-	barBg: darkTheme.colors.element.seconday,
+	barBg: darkTheme.colors.element.neutral,
 
 	textColor: darkTheme.colors.text.primary,
-	textInverseColor: darkTheme.colors.text.seconday,
+	textInverseColor: darkTheme.colors.text.white,
 	textMutedColor: darkTheme.colors.text.tertiary,
 
-	inputBg: darkTheme.colors.element.tertiary,
+	inputBg: darkTheme.colors.element.neutral,
 	inputTextColor: darkTheme.colors.element.primary,
 	inputBorderColor: darkTheme.colors.element.seconday
 });
